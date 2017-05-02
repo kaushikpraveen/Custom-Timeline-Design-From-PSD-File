@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Timeline View- Design Exercise</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+
+</head>
+
+<body>
+  <div class="container-all">
+    <!--Left-side-navbar-->
+    <nav>
+      <div class="blue-box"></div>
+
+      <div class='option-box'>
+        <a class='center-img' href="#"><img src="assets/images/box-1-btn-img.png" style="margin-top: 5px;margin-bottom:2px;"></a><a href="#"><button class="rt-btn">15</button></a></div>
+
+      <div class='option-box'>
+        <a class='center-img' href="#"><img class='icon' src="assets/images/ToDoIcon.png"></a><a href="#"><button id='todo-btn' class="rt-btn"><i class='fa fa-plus'></i></button></a></div>
+
+      <div class='option-box'>
+        <a class='center-img ' href="#"><img class='icon' src="assets/images/alert-shadow-icon.png"></a><a href="#"><button id='alert-btn' class="rt-btn"><i class='fa fa-plus'></i></button></a></div>
+
+      <div class='option-box'>
+        <a class='center-img ' href="#"><img class='icon' src="assets/images/calendar.png"></a><a href="#"><button id='todo-btn' class="rt-btn"><i class='fa fa-plus'></i></button></a></div>
+
+      <div class='option-box'>
+        <a class='center-img ' href="#"><img class='icon' src="assets/images/stairs-icon.png"></a>
+      </div>
+
+      <div class='option-box'>
+        <a class='center-img ' href="#"><img class='icon' src="assets/images/magnify-shadow-icon.png"></a>
+      </div>
+
+    </nav>
+
+    <!--Right-side-container-->
+    <div class="container">
+      <div class="grey-header">
+        <p class="heading">35 Search Results <span style="color:#979897;">for "Preview"</span></p>
+      </div>
+      <!--form-containing-searchbox-checkbox-->
+      <form id="form">
+        <input type="text" name="search" placeholder="      Preview"><br>
+        <input type="checkbox" name="c1" id="c1" checked><label for="c1">Todos</label>
+        <input type="checkbox" name="c2" id="c2" checked><label for="c2">Discussions</label>
+        <input type="checkbox" name="c3" id="c3"><label for="c3">Files</label>
+        <input type="checkbox" name="c4" id="c4"><label for="c4">Progress</label>
+        <input type="checkbox" name="c5" id="c5"><label for="c5">Events</label>
+        <input type="checkbox" name="c6" id="c6"><label for="c6">Team Members</label>
+      </form>
+      <!--cd-timeline-box-container-->
+      <div id="cd-timeline-box">
+        <section id="cd-timeline">
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+              <img src="assets/images/noteIcon.png" alt="Picture">
+              <div class="date">17 JULY</div>
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <img src='assets/images/docx.png' class='file-image'>
+              <div class='cd-text'>
+                <h3><span style='background:#ebf7fc'>preview</span>_timeline_v1.jpg<span class='tag'>TAG</span></h3>
+                <p style='margin-top:-15px; '>Attached to the comment <span class='underline'>timeline_wireframes</span><span class='name'> By <u>Bharat</u></span></p>
+                <div style="margin-top:-12px;"><a href='#'>DOWNLOAD</a></div>
+                <br>
+                <div class='label'>timeline<span style='color:white;padding-left:5px;'> x</span></div>
+              </div>
+            </div>
+            <!-- cd-timeline-content -->
+          </div><br>
+          <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+              <img src="assets/images/noteIcon.png" alt="Picture">
+              <div class="date">17 JULY</div>
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div id='item-2-content' class="cd-timeline-content">
+              <div id='left-box'><img src="assets/images/timeline-snap.png"><br>
+                <div class='cd-text'>
+                  <h3><span style='background:#ebf7fc'>preview</span>_timeline_v1.jpg<span class='tag'>TAG</span></h3>
+                  <p class='name'>By <u>Bharat</u></p><a href='#'>DOWNLOAD</a></div>
+              </div>
+
+              <div id='right-box'><img src="assets/images/timeline-snap.png"><br>
+                <div class='cd-text'>
+                  <h3><span style='background:#ebf7fc'>preview</span>_timeline_v1.jpg<span class='tag'>TAG</span></h3>
+                  <p class='name'>By <u>Bharat</u></p><a href='#'>DOWNLOAD</a></div>
+              </div>
+            </div>
+            <!-- cd-timeline-content -->
+          </div><br>
+          <!--cd-timeline-block-->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+              <img src="assets/images/noteIcon.png" alt="Picture">
+              <div class="date">17 JULY</div>
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <img src='assets/images/xlsx.png' class='file-image'>
+              <div class='cd-text'>
+                <h3><span style='background:#ebf7fc'>preview</span>_timeline_v1.jpg<span class='tag'>TAG</span></h3>
+                <p style='margin-top:-15px; '>Attached to the comment <span class='underline'>timeline_wireframes</span><span class='name'> By <u>Bharat</u></span></p>
+                <div style="margin-top:-12px;"><a href='#'>DOWNLOAD</a></div>
+              </div>
+            </div>
+            <!-- cd-timeline-content -->
+          </div><br>
+          <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+              <img src="assets/images/msg-icon.png" alt="Picture">
+              <div class="date">17 JULY</div>
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <div id='left'><img src="assets/images/aashish-.png">
+                <h3>Aashish Solanki</h3>
+                <p style='color:#b2b2b1;margin-top:-20px;'><i>1 July 2013</i></p>
+              </div>
+              <div id='right'>
+                <h3>Discussion name will go here</h3>
+                <p style='font-weight:100;'>I like the clean look of the UI, but one of the issues I have is that it<br> seems to encourage a <span style='background:#ebf7fc'>context shift for the user</span> frequently For eg. <br>Tasks and scheduler are closely tied together.<br>
+                  <span style='color:#b2b2b1'>under </span><u>Sharing of final Proposal</u>
+                </p>
+              </div>
+
+            </div>
+            <!-- cd-timeline-content -->
+            <!-- ... -->
+          </div>
+          <!--cd-timeline-block-->
+
+          <div id='item-5' class="cd-timeline-block">
+            <div class="cd-timeline-img">
+              <img src="assets/images/alert-icon.png" alt="Picture">
+              <div class="date">17 JULY</div>
+            </div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p>praesent ornare, mauris volutpat <span style='background:#ebf7fc'>ornare imperdiet, eque</span> tortor condimentum <br>urna,ut laoreet neque mauris in urna.</p><span style='color:#b2b2b1;'><small>Bharat&emsp;&emsp;4 comments</small></span><br
+              />
+              <p style='color:#b2b2b1;'><strike>praesent ornare, mauris volutpat ornare imperdiet, eque tortor condimentum <br>urna,ut laoreet neque mauris in urna.</strike></p><span style='color:#b2b2b1;'><small>Bharat&emsp;&emsp;4 comments</small></span>
+
+            </div>
+            <div class='show-more'><a href="#"><h4>SHOW MORE</h4></a></div>
+            <!-- cd-timeline-content -->
+
+          </div>
+
+        </section>
+
+      </div>
+      <!--timeline-box end-->
+
+
+    </div>
+    <!--container-end-->
+
+  </div>
+  <!--container-all-end-->
+
+</body>
+
+</html>
